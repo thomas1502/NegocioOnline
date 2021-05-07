@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1> ATMOS </h1>
+        <h1> ATMOS</h1>
     </div>
 
     <div class="row" style="background-color: #FAFAD2">
