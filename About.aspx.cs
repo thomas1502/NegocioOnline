@@ -125,6 +125,7 @@ namespace NegocioOnline
             LabelBuscarProducto.Visible = true;
             txtBuscarProducto.Visible = true;
             ButtonBuscar.Visible = true;
+            // 
         }
 
         protected void ButtonBuscar_Click(object sender, EventArgs e)
