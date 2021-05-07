@@ -7,7 +7,6 @@
     </div>
 
     <div class="row" style="background-color: #FAFAD2">
-        <p> 
             <asp:GridView ID="GridViewProductos" runat="server"  BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" AutoGenerateColumns="False" OnSelectedIndexChanged="GridViewProductos_SelectedIndexChanged">
                 <Columns>
                     <asp:CommandField ShowSelectButton="True" />
@@ -30,7 +29,6 @@
                 <SortedDescendingCellStyle BackColor="#F6F0C0" />
                 <SortedDescendingHeaderStyle BackColor="#7E0000" />
             </asp:GridView>
-        </p>
 
         <p> 
             <asp:Button ID="ButtonComprar" runat="server" CssClass="btn btn-success btn-xl"  Text="Comprar" OnClick="ButtonComprar_Click"/>
